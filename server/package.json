@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.0",
+    "react-router-dom": "^7.4.0",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "concurrently": "^9.1.2",
+    "open": "^10.1.0",
+    "sequelize-cli": "^6.6.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "start:open": "concurrently \"node app.js\" \"npx open http://localhost:5000\""
+  }
+}
